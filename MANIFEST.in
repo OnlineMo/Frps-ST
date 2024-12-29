@@ -1,0 +1,3 @@
+include frps_st/frpc.exe
+include README.md
+include LICENSE
