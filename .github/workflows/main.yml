@@ -25,7 +25,7 @@ jobs:
         python your_script.py
 
     - name: Upload speed.csv
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: speed-csv
         path: speed.csv
