@@ -4,6 +4,11 @@ import time
 import requests
 from contextlib import closing
 import csv
+import sys
+import io
+
+# 设置默认编码为 UTF-8
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # 初始化
 test_port = "16880"
