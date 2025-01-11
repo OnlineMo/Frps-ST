@@ -22,7 +22,7 @@ jobs:
 
     - name: Run script
       run: |
-        python your_script.py
+        python main.py
 
     - name: Upload speed.csv
       uses: actions/upload-artifact@v3
